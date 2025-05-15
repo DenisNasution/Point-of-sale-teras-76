@@ -42,3 +42,21 @@ A full-stack Point of Sales application designed to help small businesses manage
 ```bash
 git clone https://github.com/DenisNasution/Point-of-sale-teras-76.git
 cd Point-of-sale-teras-76-main
+```
+### 2. Backend Setup
+
+```bash
+cd backend
+npm install
+cp .env.example .env    # Add DB credentials and JWT secret
+npm run dev
+```
+
+### 3. Frontend Setup
+
+```bash
+cd ../monile
+npm install
+npm start
+```
+
